@@ -1,0 +1,28 @@
+[project]
+name = "cosmic-corridor"
+version = "0.1.0"
+description = "A small arcade space shooter built with Pygame."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Your Name" }]
+dependencies = [
+    "pygame>=2.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+# uv ile kurulum için ekstra özel bir şeye gerek yok ama alan dursun
+package = true
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,19 @@
+line-length = 88
+target-version = "py311"
+
+[lint]
+select = [
+  "E",  # pycodestyle errors
+  "W",  # pycodestyle warnings
+  "F",  # pyflakes
+  "I",  # isort
+  "B",  # bugbear
+]
+ignore = [
+  "E203",  # black uyumu için klasik ignore
+]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
