@@ -71,13 +71,12 @@ Fully modular Pygame codebase
 The web version is a lightweight JavaScript/Canvas arcade shooter embedded in server.py.
 This allows the game to run in any modern browser without installing Python or Pygame.
 
+
 Play Online (Railway):
 
-→ Your Railway production URL goes here
+[Play the Web Version on Railway](https://cosmic-corridor-production.up.railway.app)
 
-Example:
 
-cosmic-corridor-production.up.railway.app
 
 How it works
 Python/Flask serves a single HTML page
