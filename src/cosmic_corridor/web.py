@@ -101,7 +101,7 @@ uv run python -m cosmic_corridor</code></pre>
 <pre><code>uv run pytest</code></pre>
 
     <p class="footer">
-      Backend status endpoint: <code>/health</code>  
+      Backend status endpoint: <code>/health</code><br>
       Deployed on Railway as a simple Flask app showcasing the project.
     </p>
   </main>
